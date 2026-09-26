@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 # Leer la imagen en escala de grises
 img = cv2.imread(
-    "TP_prueba/Imagen_con_detalles_escondidos.tif",
+    "Imagenes-TP1/Imagen_con_detalles_escondidos.tif",
     cv2.IMREAD_GRAYSCALE
 )
 
