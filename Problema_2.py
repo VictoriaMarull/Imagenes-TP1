@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 def procesar_examen(numero_examen):
 
     ruta_imagen = (
-        f"./Imagenes-TP1/examen_{numero_examen}.png"
+        f"examen_{numero_examen}.png"
     )
 
     img = cv2.imread(
