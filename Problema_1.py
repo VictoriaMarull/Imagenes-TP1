@@ -6,16 +6,16 @@ import matplotlib.pyplot as plt
 
 # Leer la imagen en escala de grises
 img = cv2.imread(
-    "Imagenes-TP1/Imagen_con_detalles_escondidos.tif",
+    "./Imagenes-TP1/Imagen_con_detalles_escondidos.tif",
     cv2.IMREAD_GRAYSCALE
 )
 
 print(img.shape) #Tamaño de la imagen.
 print(img.dtype) #Tipo de dato.
-print(img.min()) #Intensidad mínima.
+print(img.min()) #Intensidad mínima.  
 print(img.max()) #Intensidad máxima.
 
-plt.imshow(img, cmap="gray", vmin=0, vmax=255)
+plt.imshow(img, cmap="gray", vmin=0, vmax=255) 
 plt.title("Imagen original")
 plt.axis("off")
 plt.show()

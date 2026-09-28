@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 def procesar_examen(numero_examen):
 
     ruta_imagen = (
-        f"Imagenes-TP1/examen_{numero_examen}.png"
+        f"./Imagenes-TP1/examen_{numero_examen}.png"
     )
 
     img = cv2.imread(
@@ -28,7 +28,7 @@ def procesar_examen(numero_examen):
     plt.yticks([])
     plt.show()
 
-    # Umbralizar (Unidad 3: PDI_U3_Segmentacion.py)
+    # Umbralizar 
 
     img_th = img < 200 # Los píxeles oscuros pasan a True y los píxeles blancos pasan a False. Separar lo que nos interesa del fondo las lineas y letras del fondo blanco.
 
@@ -42,7 +42,7 @@ def procesar_examen(numero_examen):
     img_cols = np.sum(img_th, 0) # uma hacia abajo y produce un resultado para cada columna. Sirve para encontrar las líneas verticales.
     img_rows = np.sum(img_th, 1) # Suma horizontalmente y produce un resultado para cada fila. Sirve para encontrar las líneas horizontales.
 
-    #(PDI_U1_Fundamentos_p2(1).py)
+    
     plt.subplot(2, 1, 1)
     plt.plot(img_cols)
     plt.title("Suma por columnas")
