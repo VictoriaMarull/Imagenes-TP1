@@ -182,6 +182,9 @@ Mediante la ecualización local fue posible identificar cinco elementos que inic
 - Varias líneas horizontales en la zona inferior izquierda.
 - Una figura circular en la zona inferior derecha.
 
+<img width="1600" height="850" alt="WhatsApp Image 2026-09-27 at 9 31 23 PM" src="https://github.com/user-attachments/assets/52575090-46ea-43c5-980b-a6194ae47af8" />
+
+
 ---
 
 # Problema 2 — Corrección automática de exámenes
@@ -600,6 +603,9 @@ Rojo  → DESAPROBADO
 ```
 
 Además, se agrega el texto correspondiente al estado de cada examen.
+
+<img width="445" height="360" alt="resultados_examenes" src="https://github.com/user-attachments/assets/d0598ca6-03f4-4fa5-b8d6-a92e84cf081b" />
+
 
 ---
 
